@@ -1,14 +1,75 @@
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body style=" margin: 0px">
-        <div>
-            <h1 style="margin: 0 px; font-family: Verdana, Geneva, Tahoma, sans-serif;" >hello world</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity No. 1</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #00ffff, #3366ff);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            height: 140px;
+            width: 980px;
+            margin-top: 15 px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .sidebar {
+            float: left;
+            width: 270px;
+            height: 450px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            border-bottom-width: 15px solid #fff; /* add white border at the right */
+        }
+
+        .content {
+            float: left;
+            width: 690px;
+            height: 450px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border: solid 15px #ffffff; /* Added white borders */
+            box-sizing: border-box; 
+            text-align: center;
+        }
+
+        .footer {
+            width: 980px;
+            line-height: 70px;
+            margin-top: 15px;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            border-bottom-color: 15px solid #fff; /* add white border at the top */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Header</h1>
         </div>
-        
-    </body>
+    </header>
+
+    <div>
+        <div class="sidebar">
+            <H2>Sidebar</H2>
+        </div>
+
+        <div class="content">
+            <h2>Content</h2>
+            <p></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <H2>Footer</H2>
+        </div>
+    </footer>
+</body>
 </html>
